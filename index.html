@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="verify-v1" content="EIzelEGPGA2n0glfOXheOchDW6JL0pBMpCE9fg9gABk=" />
+<title>Kirill Osenkov - structured editors</title>
+<link href="http://www.osenkov.com/styles.css" rel="stylesheet" type="text/css"/>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<meta name="Keywords" content="Kirill Osenkov, programmer, resume, .NET, dynamic geometry, structure editor, structured editor, structure editors, structured editors, struktureditor, LOP, language oriented programming, DSL, domain specific languages, intentional programming"/>
+<meta name="Description" content="Structured Editors"/>
+<meta name="Robots" content="index,follow"/>
+<meta name="Author" content="Kirill Osenkov"/>
+
+<style type="text/css">
+.newStyle1 {
+	color: #FF0000;
+	font-weight: bold;
+}
+</style>
+
+</head>
+<body>
+
+<h1>Kirill Osenkov</h1>
+<p><a href="#Thesis">Thesis</a></p>
+<p><a href="#Framework">Structured editor framework</a></p>
+<p><a href="#Screenshots">Screenshots</a></p>
+<p><a href="#Videos">Videos</a> - <span class="newStyle1">new!</span></p>
+<p>
+<a href="http://blogs.msdn.com/kirillosenkov/archive/2009/09/08/first-videos-of-the-structured-editor-prototype.aspx">
+Blog</a> - <span class="newStyle1">new!</span></p>
+<h2>Research in structured editors</h2>
+<p><a href="http://en.wikipedia.org/wiki/Structure_editor">Structured editors</a> can be used to edit source code (C#, Java, etc.), markup (XML, HTML, etc.) or custom domain-specific languages. The difference to text editors is that structured editors directly display the syntax tree (DOM tree) on the screen, instead of using text syntax to separate language constructs.</p>
+
+<p>I am actually building experimental prototypes for C# and XML. The prototypes are already working.</p>
+
+<h2><a name="Thesis" id="Thesis"></a>My thesis</h2>
+<p>In summer 2007 I finished my diploma thesis in computer science with the title: &ldquo;Designing, implementing and integrating a structured C# code editor&rdquo;.</p>
+<p>For those who want to know more about my thoughts on structured editors, design, architecture, implementation and IDE integration are welcome at <a href="http://www.osenkov.com/diplom">www.osenkov.com/diplom</a> - full text of the thesis is online as well.</p>
+<p>If you express interest in these topics, feel free to contact me: <a href="http://www.osenkov.com">Kirill Osenkov</a></p>
+
+<h2><a name="Framework" id="Framework"></a>Structured editor framework </h2>
+
+<p>The editors are based on the structured editor framework that we developed at the Brandenburg University of Technology (Cottbus, Germany). This was a student research project initiated by Prof. Dr. Peter Bachmann. Beside myself, the following people contributed to the framework: <a href="http://www.steffen-buechner.de">Steffen B&uuml;chner</a>, <a href="http://www.kapitanovskiy.de">Alexandr Kapitanovskyy</a> and <a href="http://www.ilyck.de">Stefan Adam</a>.</p>
+
+<h2><a name="Screenshots" id="Screenshots"></a>Screenshots</h2>
+<p>This is how the current implementation looks like: </p>
+<p><img src="http://www.osenkov.com/diplom/screenshots/cs/BlockLike_IntelliSense.png" alt="Structured editor screenshot"/></p>
+<p>As you can see, no curly braces { } are displayed, because they are not necessary. Of course, you can turn them on if you feel like: </p>
+<p><img src="http://www.osenkov.com/diplom/screenshots/cs/CSharpCurlies_NoBackground.png" alt="Structured editor screenshot"/></p>
+<p>And you can automatically format the code the way you like (e.g. leaving the open curly on the same line):</p>
+<p><img src="http://www.osenkov.com/diplom/screenshots/cs/JavaCurlies_NoBackground.png" alt="Structured editor screenshot"/></p>
+<p>But actually, you don't need any text delimiters, because you're directly editing the program tree: </p>
+<p><img src="http://www.osenkov.com/diplom/screenshots/cs/LightHorizontalGradient.png" alt="Structured editor screenshot"/></p>
+<p>A mixture of display modes is possible as well: </p>
+<p><img src="http://www.osenkov.com/diplom/screenshots/cs/OnlyClosingCurly_VerticalLine.png" alt="Structured editor screenshot"/></p>
+<p>This is probably a minimalist display mode, very dense and uncluttered: </p>
+<p><img src="http://www.osenkov.com/diplom/screenshots/cs/VerticalLine.png" alt="Structured editor screenshot"/></p>
+<p>And this is how a structured XML editor might look like:</p>
+<p><img src="http://www.osenkov.com/diplom/screenshots/xml/BlockLike.png" alt="Structured editor screenshot"/></p>
+<p><img src="http://www.osenkov.com/diplom/screenshots/xml/VerticalLine.png" alt="Structured editor screenshot"/></p>
+<p><img src="http://www.osenkov.com/diplom/screenshots/xml/LightHorizontalGradient.png" alt="Structured editor screenshot"/></p>
+<h2><a name="Videos" id="Videos"></a>Videos</h2>
+<ul>
+	<li><a href="video/Intro.html">Intro</a></li>
+	<li><a href="video/Editing.html">Editing</a></li>
+	<li><a href="video/DragDrop.html">Drag &amp; Drop</a></li>
+	<li><a href="video/LessSyntax.html">Less Syntax</a></li>
+	<li><a href="video/Properties.html">Properties</a></li>
+	<li><a href="video/Modifiers.html">Modifiers</a></li>
+</ul>
+<p>&nbsp;</p>
+</body></html>
