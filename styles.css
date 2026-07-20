@@ -1,0 +1,58 @@
+p, td, li {
+	line-height:150%;
+	font-family: Verdana, Arial;
+	font-size: 10pt;
+	margin-top: 6px;
+	margin-bottom: 6px;
+
+}
+h1 {
+	font-family: Verdana, Arial;
+	font-size: 16pt;
+	color: #000000;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	letter-spacing: 8px;
+
+
+
+}
+h2 {
+	font-family: Verdana, Arial;
+	font-size: 12pt;
+	color: #999999;
+	margin-top: 24px;
+	margin-bottom: 18px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #E3E3E3;
+}
+h3 {
+	font-family: Tahoma, Arial;
+	font-size: 11pt;
+	color: #aaaaaa;
+	margin-bottom: 12px;
+	margin-top: 26px;
+	padding: 0px;
+	letter-spacing: 3px;
+
+}
+.notimportant {
+	color: #CCCCCC;
+}
+a:link {
+	color: #CC9999;
+}
+a:visited {
+	color: #AA9999;
+}
+.cell {
+	border: 1px solid #CCCCCC;
+}
+.cellblue {
+	background-color: #DEF1FA;
+	border: 1px solid #CCCCCC;
+}
